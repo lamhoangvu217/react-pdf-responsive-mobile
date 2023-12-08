@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 function PDFViewer() {
-  let url =
-    "https://uat02.dsc.com.vn/notify/file?filepath=files/ca/20231206/0001006740/M2UzMzdkZDAtYTFhNS00MDZjLWE0NjMtNDk3NjQwMmYwOTg3/EKYCCUSTSIGN.20231206.7192.PDF";
+  let url = "/file.pdf";
   const canvasRef = useRef(null);
   const [pageState, setPageState] = useState(1);
   useEffect(() => {
